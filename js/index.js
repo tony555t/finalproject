@@ -15,7 +15,7 @@ const options = {
     console.log(card)
     const rname = result["name"]
     console.log(rname)
-    // const speciesImage = species["Species Illustration Photo"].src
+    
     card.querySelector(".species-image").src = result.thumbnail_url;
     card.querySelector(".name").innerHTML = rname;
     card.querySelector(".description").innerHTML = `${result.description}`;
@@ -23,7 +23,7 @@ const options = {
 
   });
 });
-addEventListener
+i
    
   
 
