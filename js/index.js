@@ -5,24 +5,24 @@ const options = {
     'X-RapidAPI-Host': 'tasty.p.rapidapi.com'
   }
 };
+// fetch url
+//   fetch("https://tasty.p.rapidapi.com/recipes/list?from=0&size=20&tags=under_30_minutes", options)
+// .then(response => response.json())
+// .then(data => {
+//   console.log(data)
+//   data.results.forEach((result, index) => {
+//     const card = document.getElementById(`card-${index + 1}`);
+//     console.log(card)
+//     const rname = result["name"]
+//     console.log(rname)
+//     // const speciesImage = species["Species Illustration Photo"].src
+//     card.querySelector(".species-image").src = result.thumbnail_url;
+//     card.querySelector(".name").innerHTML = rname;
+//     card.querySelector(".description").innerHTML = `${result.description}`;
+//     card.querySelector(".price").innerHTML = `price: ${result.price.total}`;
 
-  fetch("https://tasty.p.rapidapi.com/recipes/list?from=0&size=20&tags=under_30_minutes", options)
-.then(response => response.json())
-.then(data => {
-  console.log(data)
-  data.results.forEach((result, index) => {
-    const card = document.getElementById(`card-${index + 1}`);
-    console.log(card)
-    const rname = result["name"]
-    console.log(rname)
-    // const speciesImage = species["Species Illustration Photo"].src
-    card.querySelector(".species-image").src = result.thumbnail_url;
-    card.querySelector(".name").innerHTML = rname;
-    card.querySelector(".description").innerHTML = `${result.description}`;
-    card.querySelector(".price").innerHTML = `price: ${result.price.total}`;
-
-  });
-});
+//   });
+// });
 
    
   
