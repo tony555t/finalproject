@@ -1,3 +1,32 @@
+document.addEventListener('DOMContentLoaded', () => {
+
+
+  // ROWS DATA
+  const randomMealRow = document.getElementById('random-meal')
+  const mealCategoryRow = document.getElementById('menu')
+  const searchRow = document.getElementById('search-result')
+
+  // LINKS DATA
+  const menuLink = document.getElementById('menu-link')
+  const homeLink = document.getElementById('home-link')
+
+  // search form
+  const searchForm = document.getElementById('search-form')
+  const searchInput = document.getElementById('search')
+
+
+    // CLICK EVENTS FOR LINKS
+      menuLink.addEventListener('click', () => {
+      // hide random meal
+      menu.style.display = "none"
+      // hide search page
+      searchRow.style.display = "none"
+      // show categories
+      mealCategoryRow.removeAttribute('hidden')
+      mealCategoryRow.style.display = "flex"
+
+  })
+
 const options = {
 	method: 'GET',
 	headers: {
