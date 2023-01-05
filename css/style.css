@@ -1,23 +1,59 @@
- 
- *{margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Georgia',sans-serif;
-  
+html {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
- 
- #jumbo {
-    background-image: url("../image/tea.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.container-{
-    width: 100%;
-    min-height: 100vh;
-    padding: 5%;
-    background-position:center;
-    background-size:cover ;
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo{
+    text-align: left;
+    background-color: rgb(179, 97, 49);
+    color: black;
+    padding: 0.2em;
+  }
+  
+  #character-bar {
+    height: 9vh;
+    background:rgb(179, 97, 49);
     display: flex;
+    justify-content: space-around;
+    align-items:rgb(179, 97, 49);
+    padding-bottom: 5vh;
+  }
+  
+  #character-bar span {
+    padding: 1%;
+    display:-moz-grid-line;
+    justify-content: left;
+    font-size: 2vh;
     align-items: center;
-    justify-content: center;
-}
+    
+  }
+  
+  .characterInfo{
+    height: 550px;
+    padding: 30px;
+    font-size: 24px;
+    border: solid;
+    text-align: left;
+  }
+  
+  input[type="submit"], button {
+    background-color:rgb(179, 49, 49);
+    color: black;
+    font-size: 18px;
+    border-radius: 6px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  input[type="text"] {
+    font-size: 3vh;
+  }
+  
+  #image{
+    width: 200px;
+    height: 100px;
+  }
+  

@@ -1,41 +1,52 @@
-# chef`s pen
-## - Your go-to news source
-Welcome to our recipe website! We are excited to share a variety of delicious and easy-to-follow recipes with you.
-On our website, you will find a wide range of recipes organized into different categories  dessert. We also have a special section for vegetarian and vegan recipes, as well as gluten-free options.
-To help you find the perfect recipe, you can use the search bar to filter by ingredient, cuisine type, or dietary restriction. You can also save your favorite recipes to your personal recipe box for easy access later.
-We hope you enjoy trying out our recipes and learning new cooking skills. Happy cooking!!
+# phase-1-wk2-code-challenge
+# description
+Animal Voting Web App
+Welcome to the Animal Voting Web App! This app allows users to browse and vote on their favorite animal pictures right from their web browser.
 
-## Features
-- Search for food recipe
-- select recipe for different foods
-- Load data from  an api
+# Features
+Browse a collection of animal pictures
+Upvote or downvote each picture
+View the current ranking of all pictures
+Submit your own animal pictures for others to vote on
 
-# HOW TO use chef`pen
-### 1.  Run locally
-Clone the project
-```bash
-  git clone git@github.com:abdishukri-105/phase-1-project.git
-```
-Go to the project directory
-```bash
-  cd finalproject.git
-```
-Install dependencies
-```bash
-  npm install
-```
+# Requirements
+A modern web browser (such as Chrome, Firefox, Safari)
+Installation
+To use the app, simply visit the following link in your web browser: 
 
-Start the json server
-### 2.visit the app directly
-#### to visit the app directly click here https://finalproject.vercel.app/
+# Getting Started
+
+Browse the animal pictures and cast your votes
+Optionally, submit your own animal pictures for others to vote on
+Support
+If you have any questions or run into any issues while using the app, please contact us at tonytulla764@gmail.com
+
+## Live Link
 
 
-## Author
-- github link (https://github.com/tony555t)
-## Acknowledgements
-- Albert Byron- Technical Mentor
-- Ian Okumu - Senior Technical Mentor
+## Development Requirements
+-Visual Studio Code.
+-LIve Server Extension
+## Development Installation
+To get the code ..
+  1. Clone the repository:
+  git@github.com:tony555t/phase-1-wk2-code-challenge.git
+  2. Move the to the folder and install requirements
+    cd Phase-1-Code-Challenge-Flatacuties
+  3. Running the application
+      -Run this command to get the backend started: json-server --watch db.json.
+      -Test your server by visiting this route in the browser: <http://localhost:3000/characters>.
+      -Rightclick on the index file and open live server.
+## Technologies used
+1. HTML5
+2.CSS
+3.JavaScript
 
-
-## Feedback
-If you have any feedback, please reach out to me at tonytullah764@gmail.com
+## Author and License
+  "author": "antony tula",
+  "license": "ISC",
+  "bugs": {
+    "url":" https://github.com/tony555t/phase-1-wk2-code-challenge"
+  },
+  "homepage": "https://github.com/tony555t/phase-1-wk2-code-challenge"
+}

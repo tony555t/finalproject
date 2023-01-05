@@ -1,128 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <title>chefs pen</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
-    </head>
-
-    <body>
-        <nav class="navbar bg-dark">
-            <div class="container-fluid">
-             <a class="navbar-brand nav-item text-light" id="home-link">chef`s pen</a>
-                 <ul class="navbar-nav me-auto d-flex flex-row">
-                    <li class="nav-item me-2">
-                        <a class="text-light nav-link" href="#" id="home">home</a>
-                        </li>
-                    <li class="nav-item me-2">
-                    <a class="text-light nav-link" href="#" id="category-link">categories</a>
-                 </li>
-                    
-                 </ul>
-                  
-                 <div class="login-container">
-                    <form action="/action_page.php">
-                      <input type="text" placeholder="Username" name="username">
-                      <input type="text" placeholder="Password" name="psw">
-                      <button type="submit">Login</button>
-                    </form>
-
-
-                   </div>
-                 </nav>
-                    <div class="container-fluid  vh-100" id="jumbo">
-                        <div class="row">
-                          <div class="col-4">
-                          </div>
-                          <div class="row mt-3 mb-3" id="meal-categories" hidden>
-                            <h3>categories</h3>
-                        </div>
-                     <form class="d-flex" id="search-form">
-                        <input class="form-control" type="text" placeholder="Search" id="search"/>
-                        <button class="btn btn-outline-info ms-1" id="searchBtn">SEARCH</button>
-                     </form>
-
-
-                       <div class="row mt-3 mb-3" id="search-result" hidden>
-                <h3>SEARCH RESULTS</h3>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatacuties.</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    
+</head>
+<body>
+    <div id = "container-fluid">
+        <h1>Flatacuties</h1>
+   
+        <div class="row">
+            <div id = "classList" class="col-2">
+                <ul id = "list">
+                </ul>
             </div>
+            <div id ="animalDetails" class="col-8">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="" > 
+                      <div class="card-footer">
+                          <button  type = "button" id ="votes" class = "btn btn-primary">votes</button>
+                          <button type = "button" id = "reset" class="btn btn-danger">reset</button>
+                          <h2 id="animeName" ></h2>
+                      </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div> 
 
-
-        </div>
-
-        <script type="text/javascript" src="js/bootstrap.js"></script>
-        
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
+   </div>
+   <script src="../js/bootstrap.js"></script>
+    <script src="../js/index.js"></script>
+</body>
 </html>
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
